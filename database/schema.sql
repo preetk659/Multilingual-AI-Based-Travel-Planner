@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS travel_ai;
+USE travel_ai;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    password VARCHAR(255)
+);
