@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+  background: #f0f8ff;
+  padding: 20px;
+}
+
+form {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+input, button {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
